@@ -1,0 +1,143 @@
+
+<!--
+  Copyright (c) 2011 Google Inc.
+  Licensed under the Apache License, Version 2.0 (the "License"); you may not
+  use this file except in compliance with the License. You may obtain a copy of
+  the License at
+  http://www.apache.org/licenses/LICENSE-2.0
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+  License for the specific language governing permissions and limitations under
+  the License.
+  To run this sample, set apiKey to your application's API key and clientId to
+  your application's OAuth 2.0 client ID. They can be generated at:
+    https://console.developers.google.com/apis/credentials?project=_
+  Then, add a JavaScript origin to the client that corresponds to the domain
+  where you will be running the script. Finally, activate the People API at:
+    https://console.developers.google.com/apis/library?project=_
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="shortcut icon" href="">
+
+
+    <!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Roboto Font-->
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+
+	<!-- Fancybox Gallery CSS -->
+	<link rel="stylesheet" type="text/css" href="jquery.fancybox.min.css">
+
+	<!-- Material design icon-->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+	
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+  <link rel="stylesheet" href="frame.css">
+  <link rel="stylesheet" href="photos.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+    <meta charset='utf-8' />
+  </head>
+  <body style="background-image: url(imgs/4.png);">
+
+    <!--Add buttons to initiate auth sequence and sign out-->
+    <!-- <button id="authorize-button" style="display: none;">Authorize</button>
+    <button id="signout-button" style="display: none;">Sign Out</button> -->
+
+    <div id="content"></div>
+
+    
+
+    <!-- Always shows a header, even in smaller screens. -->
+    <div class="mdl-layout--fixed-header mdl-js-layout">
+      <header class="mdl-layout__header mdl-layout__header--waterfall" style="background-color: black;">
+          <div class="mdl-layout__header-row">
+              <!-- Title -->
+              <span class="mdl-layout-title"><a style="color: white; text-decoration: none;" href="../home.php"> Family Manager </a></span>
+              <!-- Add spacer, to align avatar/disconnect to the right -->
+              <div class="mdl-layout-spacer"></div>
+              <nav class="mdl-navigation">
+                  <img src="" id="userAvatar" />
+                      <!--Add buttons to initiate auth sequence and sign out-->
+                  <button class="mdl-navigation__link" id="authorize-button" style="display: none; background: none; border: none; cursor: pointer;">Authorize</button>
+                  <button class="mdl-navigation__link" id="signout-button" style="display: none; background: none; border: none; cursor: pointer;">Sign Out</button>
+              </nav>
+          </div>
+          <!-- <div class="mdl-layout__header-row">
+              Navigation
+              <nav class="mdl-navigation">
+                  <a class="mdl-navigation__link" href="/">PREVIEW</a>
+                  <a class="mdl-navigation__link" href="/search">SEARCH</a>
+                  <a class="mdl-navigation__link" id="albumTitle">ALBUMS</a>
+              </nav>
+          </div> -->
+      </header>
+
+      <script type="text/javascript" src="photos.js"> </script>
+    <script async defer src="https://apis.google.com/js/api.js" 
+      onload="this.onload=function(){};handleClientLoad()" 
+      onreadystatechange="if (this.readyState === 'complete') this.onload()">
+    </script>
+
+      <!-- Loading dialog -->
+      <div class="loading-dialog">
+          <h1>Loading ...</h1>
+          <div class="mdl-spinner mdl-js-spinner is-active"></div>
+      </div>
+
+      <main class="demo-main mdl-layout__content" style="display: block;">
+          <div class="page-content" >
+
+            <section class="sample-content">
+              <button class="buttonTitle" onclick="albumsClicked()">
+                <h2 style="color: white; font: Roboto;" >Photo Albums <i class="fa fa-angle-right" id="rightArrow"></i> <i class="fa fa-angle-down" id="downArrow" style="display: none;"></i> </h2>
+              </button>
+                <p class="subhead " style="color: white;">Select the albums you want to see pictures from.</p>
+                <ul class="mdl-list" id="albums"></ul>
+            </section>
+            
+              <section class="sample-content">
+                  <div id="images-container"></div>
+                  <div id="images_empty" style="display:none">
+                      <img src="">
+                      <p>No results, try searching again</p>
+                  </div>
+              </section>
+
+
+              <div class="floating-button">
+                  <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent" id="startSlideshow">
+                      <i class="material-icons">fullscreen</i>
+                      <span class="float-btn-label">View in frame</span>
+                  </button>
+              </div>
+
+              <!-- Error dialog -->
+              <div class="" id="error" style="display:none">
+                  <h4 class="alert-heading" id="errorTitle"></h4>
+                  <pre id="errorMessage"></pre>
+              </div>
+
+
+              <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" ></script>
+              <script src="common.js"></script>
+              <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+              <script src="frame.js"></script>
+
+
+          </div>
+      </main>
+  </div>
+
+  </body>
+</html>

@@ -1,0 +1,23 @@
+Scrum 2 Meeting Minutes
+
+Attended: Maria Flores Saenz, Mikaela Rene Garcia, Will Mize, Nihcolas Tann
+
+Date/Time: April 14th, 2020 at 5:30pm 
+
+Duration: 40 mins
+
+Team Member Status
+We discussed how we wanted to conduct the user study and the status of the each of our API implementations
+Maria: Had gotten google calendar/photos api working on local instance.
+Mikaela: Gotten tasks implemented, began fixing errors.
+Will: Had just completed Life360 implemenation into site.
+Nick: Had finished creating most of the suvery. 
+
+Next Steps/Corrective Plan
+
+Each team member will finish there respective assignment to ensure that the website is ready for the user study.
+
+Maria: Finish Google Photos and Google Calendar integration.
+Mikaela: Finalize google tasks in the website.
+Will: Correct issues with AWS Cloudfront redirection for website
+Nicholas: Fix issue with sending information to the database.

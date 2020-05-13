@@ -1,0 +1,17 @@
+Scrum 1 Meeting Minutes
+
+Attended: Maria Flores Saenz, Mikaela Rene Garcia, Will Mize, Nicholas Tann
+
+Date/Time: March 28, 2020 at 5:00pm 
+
+Duration: 1 hour
+
+Team Member Status
+
+No status yet. This is the first team meeting we are holding to go over what we will be working on in this Sprint.
+Created our livemache
+
+Next Steps/Corrective Plan
+
+Every team member will brainstorm ideas for our web application and we will meet up again to discuss
+which idea we want to do.

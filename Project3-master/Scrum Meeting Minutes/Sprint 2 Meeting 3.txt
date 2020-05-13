@@ -1,0 +1,26 @@
+Scrum 2 Meeting Minutes
+
+Attended: Maria Flores Saenz, Mikaela Rene Garcia, Will Mize, Nihcolas Tann
+
+Date/Time: April 17th, 2020 at 3:15pm 
+
+Duration: 30 min
+
+Team Member Status
+We discussed all that had been completed for this sprint, and what issues we each came across during the sprint. We also discussed
+the results of the user study.
+Maria: Had gotten google photos integrated into the site, but issues with google calendar remained.
+Mikaela: Had completed implementing tasks into the site, but the HTML was not formatted as desired. As well as some added functionality
+was missing.
+Will: The site was hosted reliably on an AWS E2 instance. However, users began reporting that the buttons did not always show up for life360 for an unknown reason. The site does not redirect HTTP
+to HTTPS preventing Google from authenticating in the API.
+Nick: The ability to write to tables in the database had been corrected. User reports led to the decision to reformat the homepage.
+
+Next Steps/Corrective Plan
+
+Each team member will add to the backlog was they need to complete in the final sprint.
+
+Maria: Finish Google Calendar integration.
+Mikaela: Finalize google tasks in the website.
+Will: Correct issues with HTTP to HTTPS redirection, and investigate missing buttons issue. 
+Nicholas: Reformat the homepage of the site, as well as fix the log in feature.

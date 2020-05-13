@@ -1,0 +1,21 @@
+Sprint 3 Scrum 3 Meeting Minutes
+
+Attended: Maria Flores Saenz, Mikaela Rene Garcia, Will Mize, Nicholas Tann
+
+Date/Time: April 24, 2020 at 4:00pm 
+
+Duration:  45 min
+
+Team Member Status
+
+Maria: Figured out that to implement Google calendar and photos correctly, a new html page must be created.
+Mikaela: Helping Maria with final implemenation of Google calendar.
+Will: Finished connecting Life360 to the database.
+Nick: Finished designated tasks for this sprint.
+
+Next Steps/Corrective Plan
+
+Maria: Finish Google Calendar and Google photos api implementation.
+Mikaela: Help Maria finsih Google Calendar implemenation.
+Will: Correct new found issue with connection to the database seemingly caused by Cloudfront.
+Nicholas: Help out in areas as they become apparent.

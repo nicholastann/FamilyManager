@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.1.0/fullcalendar.min.css' rel='stylesheet' />
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.7/semantic.min.css' rel='stylesheet' />
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.1.0/fullcalendar.print.min.css' rel='stylesheet' media='print' />
+    <link src="styles.css"></link>
+
+    <!-- Material design icon-->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+	
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+<meta charset='utf-8' />
+</head>
+<body style="background-image: url(imgs/4.png);">
+
+
+  <header class="mdl-layout__header mdl-layout__header--waterfall" style="background-color: black;">
+    <div class="mdl-layout__header-row">
+        <!-- Title -->
+        <span class="mdl-layout-title"><a style="color: white; text-decoration: none;" href="../home.php"> Family Manager </a></span>
+        <!-- Add spacer, to align avatar/disconnect to the right -->
+        <div class="mdl-layout-spacer"></div>
+        <nav class="mdl-navigation">
+            <img src="" id="userAvatar" />
+            <button class="mdl-navigation__link" id="authorize_button" style="display: none; background: none; border: none; cursor: pointer;">Authorize</button>
+            <button class="mdl-navigation__link" id="signout_button" style="display: none; background: none; border: none; cursor: pointer;">Sign Out</button>
+        </nav>
+    </div>
+</header>
+
+    <!--Add buttons to initiate auth sequence and sign out
+    <button id="authorize_button" style="display: none;">Authorize</button>
+    <button id="signout_button" style="display: none;">Sign Out</button> -->
+    <pre id="content" style="white-space: pre-wrap;"></pre>
+    <script src="call-api.js"></script>
+
+    <script async defer src="https://apis.google.com/js/api.js"
+    onload="this.onload=function(){};handleClientLoad()"
+    onreadystatechange="if (this.readyState === 'complete') this.onload()">
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.7/semantic.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/moment.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.1.0/fullcalendar.min.js" ></script>
+
+
+<div class="ui container">
+
+    <div class="ui menu">
+      <div class="header item">Brand</div>
+      <a class="active item">Link</a>
+      <a class="item">Link</a>
+      <div class="ui dropdown item">
+        Dropdown
+        <i class="dropdown icon"></i>
+        <div class="menu">
+          <div class="item">Action</div>
+          <div class="item">Another Action</div>
+          <div class="item">Something else here</div>
+          <div class="divider"></div>
+          <div class="item">Separated Link</div>
+          <div class="divider"></div>
+          <div class="item">One more separated link</div>
+        </div>
+      </div>
+      <div class="right menu">
+        <div class="item">
+          <div class="ui action left icon input">
+            <i class="search icon"></i>
+            <input type="text" placeholder="Search">
+            <button class="ui button">Submit</button>
+          </div>
+        </div>
+        <a class="item">Link</a>
+      </div>
+    </div>
+  </div>
+  
+  <br/>
+  <div class="ui container">
+    <div class="ui grid">
+      <div class="ui sixteen column" id="cal-cont-2">
+        
+      </div>
+    </div>
+  </div>
+
+  <!-- <button onclick="createEventt()">Create Event</button> -->
+  
+  </div>
+  
+</body>
+</html>

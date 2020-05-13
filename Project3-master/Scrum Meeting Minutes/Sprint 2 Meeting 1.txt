@@ -1,0 +1,25 @@
+  
+Scrum 2 Meeting Minutes
+
+Attended: Maria Flores Saenz, Mikaela Rene Garcia, Will Mize, Nihcolas Tann
+
+Date/Time: April 9th, 2020 at 11:10am 
+
+Duration: 30 mins
+
+Team Member Status
+We discussed the agenda for the project meeting, and what needs to be done for the user stories user study proposal.
+Maria: Working on getting photos API implemeted.
+Mikaela: Working on the google redirection for API.
+Will: Correcting issues with Life360 map/getting photos to appear.
+Nich: Local server running to hold mysql database, need to fix visual bugs. 
+
+Next Steps/Corrective Plan
+
+Each team member will help with creating user stories for the feature they have been working on, and putting
+them into the proposal.
+
+Maria: Finsih Google Photos and Google Calendar implementation
+Mikaela: Finish Google redirection and Google task implementation
+Will: Work on getting the site hosted to AWS.
+Nicholas: Storing information regarding life360 and google accounts within the database.

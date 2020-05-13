@@ -1,0 +1,25 @@
+Scrum 1 Meeting Minutes
+
+Attended: Maria Flores Saenz, Mikaela Rene Garcia, Will Mize, Nicholas Tann
+
+Date/Time: April 4, 2020 at 1:30pm 
+
+Duration: 15mins
+
+Team Member Status
+
+Maria: Worked on Google Calendar API before Google Photos to get familiar with Google APIs. Has part of Google Calendar API implemented in our code.
+Will: Worked on Life 360 API and Google Map API. Completed both interactions and added to our code.
+Mikaela: Working on Google Tasks API and need to work on the credentials of the Google Task API
+Nicholas: Created the HTML file and added the log in page, pages for APIs, and help pages.
+
+Next Steps/Corrective Plan
+
+Maria: Continue working on Google Calendar and Google Photos API.
+Will: Pins on Google Maps are unexpectedly stacking up so needs to work on fixing the location and Google Maps pin to reset everytime the button is hit
+Mikaela: Continue working on implementing Google Tasks to the web application. Will try to use other ways of authentication
+Nicholas: Work on the database for the web application to store log in info specially for the Google accounts
+
+Overall, the team needs to work on getting our backlogs and burndown charts updated throughout the week so that our charts are more accurately represented.
+
+

@@ -1,0 +1,20 @@
+Scrum 1 Meeting Minutes
+
+Attended: Maria Flores Saenz, Mikaela Rene Garcia, Will Mize, Nicholas Tann
+
+Date/Time: March 31, 2020 at 5:00pm 
+
+Duration: 1 hour
+
+Team Member Status
+
+Every team member has updated the user stories for each of their assigned API or portion of 
+the web application. We have made the product backlog and intial burndown chart. Will, our project manager,
+has emailed the deliverables because Livemache is currently down. 
+
+Next Steps/Corrective Plan
+
+Maria: Work Google Calendar and Google Photos API.
+Will: Work on Life 360 API. 
+Mikaela: Work on Google Task API
+Nicholas: Work on the site and HTML

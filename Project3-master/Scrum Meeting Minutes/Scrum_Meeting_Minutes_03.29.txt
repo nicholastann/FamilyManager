@@ -1,0 +1,21 @@
+Scrum 1 Meeting Minutes
+
+Attended: Maria Flores Saenz, Mikaela Rene Garcia, Will Mize
+
+Date/Time: March 29, 2020 at 9:00pm 
+
+Duration: 1 hour 30 mins
+
+Team Member Status
+
+We placed ideas in the livemache for our web application. Maria had the family manager idea
+to create a dashboard where families can make lists, events, track each other, and have photos.
+
+Next Steps/Corrective Plan
+
+Each team member will collaborate in creating the product backlog and burndown chart that is due 
+Tuesday. The parts of the project are now split up between each member.
+Maria: Google Photos and Google Calendar
+Mikaela: Google Task
+Will: Life 360 
+Nicholas: HTML Backbone of the application

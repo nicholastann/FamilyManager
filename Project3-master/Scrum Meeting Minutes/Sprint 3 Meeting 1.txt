@@ -1,0 +1,21 @@
+Sprint 3 Scrum 1 Meeting Minutes
+
+Attended: Maria Flores Saenz, Mikaela Rene Garcia, Will Mize, Nicholas Tann
+
+Date/Time: April 21st, 2020 at 5:30pm 
+
+Duration:  30 min
+
+Team Member Status
+
+Maria: Working on getting Google calendar to integrate into the site.
+Mikaela: Working on implementing features for Google tasks
+Will: Fixed HTTP to HTTPS redirection issue.
+Nick: Working on reformating the menu system based on the user study.
+
+Next Steps/Corrective Plan
+
+Maria: Continue to work on calendar implemenation into main site.
+Mikaela: Continue to work on implementing features for Google tasks.
+Will: Enable Life360 information to be stored and retrieved from the database.
+Nicholas: Allow for the text size of the site to be changed.

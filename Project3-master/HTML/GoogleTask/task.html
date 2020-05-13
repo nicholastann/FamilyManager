@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Google Tasks API Quickstart</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" >
+  </head>
+  <body>
+    <p>Google Tasks API Quickstart</p>
+
+    <!--Add buttons to initiate auth sequence and sign out-->
+    <button id="authorize_button" style="display: none;">Authorize</button>
+    <button id="signout_button" style="display: none;">Sign Out</button>
+
+    <!---Buttons to Add List-->
+    <input type="text" id="newTitle" value="Enter New List Title" style="display: none;"><button id="add_list_button" style="display: none;">Create New List</button>
+    
+    <button id="submit_name" style="display: none;"></button>
+ 
+
+    <!---Drop Down Menu to store all the lists-->
+    <select id ="drop_select" style="display: none;"> <p>Select List</p> </select>
+
+    <!---Buttons to Delete List-->
+    <button id="delete_list_button" style="display: none;">Delete List</button>
+
+    <!---Drop Down Menu to store all the lists-->
+    <select id ="drop_select" style="display: none;">
+        <option value="default"> Select List </option>
+    </select>
+    
+    <pre id="content" style="white-space: pre-wrap;"></pre>
+    <div id="root"></div>
+    <script src="task_working.js"></script>
+
+    <script async defer src="https://apis.google.com/js/api.js"
+      onload="this.onload=function(){};handleClientLoad()"
+      onreadystatechange="if (this.readyState === 'complete') this.onload()">
+    </script>
+  </body>
+</html>
